@@ -36,6 +36,5 @@ For example, the following
 single line of code in a view file would render a "Web Accessibility" Pagination component:
 
 ```php
-<?= yii\bootstrap\Progress::widget(['percent' => 60, 'label' => 'test']) ?>
-<?= blackwaveRt\webAccessibility\LinkPager::widget(['pagination' => $pages]); ?>
+<?= blackwave-rt\webAccessibility\LinkPager::widget(['pagination' => $pages]); ?>
 ```
