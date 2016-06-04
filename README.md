@@ -36,5 +36,5 @@ For example, the following
 single line of code in a view file would render a "Web Accessibility" Pagination component:
 
 ```php
-<?= blackwave-rt\webAccessibility\LinkPager::widget(['pagination' => $pages]); ?>
+<?= blackwaveRt\webAccessibility\LinkPager::widget(['pagination' => $pages]); ?>
 ```
