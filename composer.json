@@ -1,0 +1,36 @@
+{
+  "name": "blackwave-rt/yii2-web-accessibility",
+  "description": "Web Accessibility Extension for Yii 2",
+  "keywords": ["yii2", "Web Accessibility", "15web", "Blackwave"],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/Blackwave-rt/yii2-web-accessibility/issues",
+    "wiki": "https://github.com/Blackwave-rt/yii2-web-accessibility/wiki",
+    "source": "https://github.com/Blackwave-rt/yii2-web-accessibility"
+  },
+  "authors": [
+    {
+      "name": "Dmitry Belov",
+      "email": "dmitry15web@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": ">=2.0.6",
+    "bower-asset/web-accessibility": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "blackwave\\accessibility\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0.x-dev"
+    },
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
