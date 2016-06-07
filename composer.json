@@ -17,7 +17,7 @@
   ],
   "require": {
     "yiisoft/yii2": ">=2.0.6",
-    "bower-asset/web-accessibility": "*"
+    "bower-asset/web-accessibility": "dev-master"
   },
   "autoload": {
     "psr-4": {
